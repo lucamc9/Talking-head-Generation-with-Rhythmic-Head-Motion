@@ -544,7 +544,7 @@ class FaceForeDemoDataset(BaseDataset):
                     break
                 except:
                     choice = ((choice + 1)%images.shape[0])
-                    print("what the fuck for {}".format(self.tgt_video_path))
+                    print("error in {}".format(self.tgt_video_path))
                     count += 1
                     if count > 20:
                         break

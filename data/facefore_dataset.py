@@ -582,7 +582,7 @@ class FaceForeDataset(BaseDataset):
                     break
                 except:
                     choice = ((choice + 1)%images.shape[0])
-                    print("what the fuck for {}".format(self.video_path))
+                    print("error in {}".format(self.video_path))
                     count += 1
                     if count > 20:
                         break
