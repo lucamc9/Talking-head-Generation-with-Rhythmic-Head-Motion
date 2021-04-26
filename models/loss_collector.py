@@ -10,7 +10,7 @@ from util.util import get_roi
 from models.base_model import BaseModel
 import models.networks as networks
 from models.input_process import *
-from pytorch_msssim import msssim
+from pytorch_msssim import ms_ssim as msssim
 
 import pdb
 
